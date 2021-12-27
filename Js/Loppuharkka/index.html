@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="Loppuharkka.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="kentta">
+            <form action= "#" onsubmit="return munFunctio(this)">
+             <input type="text" id="haku" placeholder="hae">
+             <button type="button" id ="Nappi" onclick="munFunctio()">Hae</button>
+            </form>
+            
+        </div>
+
+    </header>
+    
+    <div id = "Eka"></div>
+    <div id = "Toka">
+        <div onclick="hidepopup()" id="ilmestynyt" >
+            <span class="popuptext" id="myPopup" >Tässä <b>pyydetty</b> teksti </span>
+        </div>
+    </div>
+</body>
+</html>

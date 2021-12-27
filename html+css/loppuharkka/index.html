@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loppuharkka</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200;700;900&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <nav>
+        <header>
+            <div id ="Eka">  
+               
+            </div>
+            <div class="Logo_here">
+                <h1 class="Logo">
+                    <span class="logo_i_know">
+                        <span class="letter_i">I</span>know
+                    </span>
+                     HTML
+                </h1>
+                <p>also a little bit CSS</p>
+            </div>
+        </header>
+    </nav>
+   <!-- jos olisin saanut toimimaan, javascriptistä aukeaisi valikko mobiilista-->
+    <nav id ="MNav">
+        <ul>
+            <li><a href="#Eka">Home</a></li>
+            <li><a href="#dt">Desing Thinking</a></li>
+            <li><a href="#nut">Nutshell</a></li>
+            <li> <a href="#about">About us</a></li>
+            <li><a href="#Contact_us">Contact</a></li>
+           <div><a href="javascript:void(0);" class="icon" onclick="myFunction()"></a></div>
+        </ul>
+    </nav>
+   <!--crosshair kuva-->
+    <header id = "MHeader">
+        <div class="glidething">
+            <img src="crosshairs-solid.svg" alt="pic" style= "float: left">
+            <div class="container">
+                <h1>Desing <span>thinking</span>
+                </h1>
+                <p>
+                    Why is desing thinkin important <br>
+                    Desing thinking enables organizations to create lasting value for consumers.The process is useful in any complex system (not just design systems) because it: <br>
+               
+                </p>
+                <ul>
+                    <li>Aims to solve concrete human need</li>
+                    <li>Tackles problems that are ambiguous pr difficult to define</li>
+                    <li>Leads to more innovative solutions</li>
+                    <li>Makes organizations run daster and more efficiently</li>
+                </ul>
+                <p>Source: wework.com</p>
+            </div>
+            <div class="gradient"></div>
+        </div>
+    </header>
+
+    <main>
+        <section id= "Desingthinking">
+            <div class="container">
+                <header>
+                    <h2>Design thinking </h2>
+                </header>
+                <div class="Figure1Thing">
+                    <div><span>Tecnology feasibility</span></div>
+                    <div><span>Business viability</span></div>
+                    <div><span>People desirability</span></div>
+                    <div><span>Sustainibility viability</span></div>
+                    <div class="Figure1-spez"><span>innovation</span></div>
+                </div>
+            </div>
+            <div class="Videothingie">
+
+             <iframe width="560" height="315" src="https://www.youtube.com/embed/L_LUpnjgPso" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <!--Don´t know if this need autoplay accelerate etc. my googled reference had them-->
+            </div>
+        
+        </section>
+        <!--nutshell teksti-->
+        <section id ="nut">
+            <header>
+                <h2>Desing Thinkin in Nutshell</h2>
+            </header>
+            <div class="NuttyText">
+                <div class="container">
+                    <h3>
+                        Points
+                    </h3>
+                    <p>Never gonna give you up
+                        Never gonna let you down
+                        Never gonna run around and desert you
+                        Never gonna make you cry
+                        Never gonna say goodbye
+                        Never gonna tell a lie and hurt you
+                        >Never gonna give you up
+                        Never gonna let you down
+                        Never gonna run around and desert you
+                        Never gonna make you cry
+                        Never gonna say goodbye
+                        Never gonna tell a lie and hurt you
+                        >Never gonna give you up
+                        Never gonna let you down
+                        Never gonna run around and desert you
+                        Never gonna make you cry
+                        Never gonna say goodbye
+                        Never gonna tell a lie and hurt you
+                    </p>
+
+                    <p>
+                        Never gonna give you up
+                        Never gonna let you down
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section id="about">
+            <header>
+                <h2>About us</h2>
+            </header><br><br>
+            <!--Kuvaneliö läpinäkyvillä väreillä-->
+            <div class="Figure2">
+                <div> 
+                    <img src="pexels-italo-melo-2379005.jpg" alt="Mike Benson"> 
+                    Mike Benson
+                </div>
+                <div>
+                    <img src="pexels-andrea-piacquadio-3831645.jpg" alt="Joe Forbidden"> 
+                    Joe Forbidden
+                </div>
+                <div>
+                    <img src="pexels-tainá-bernard-3482526.jpg" alt="Maria Santos"> Maria Santos
+                </div>
+                <div>
+                    <img src="pexels-simon-robben-614810.jpg" alt="Jorma Selkävuori"> Jorma Selkävuori
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer id="Contact_us">
+        <div class="contact-us">
+            <h2>Contact us</h2>
+            <form>
+                <label for="nimikentta">Name</label><br>
+                <input id="nimikentta" name="nimi" type="text"><br>
+                <label for="emailinputti">Email</label><br>
+                <input type="email"id=emailinputti name="email"><br>
+                <label for="puhkentta">Phone</label><br>
+                <input type="tel" name="puh" id="puhkentta"> <br>
+                <label for="Gdpr">
+                    <input type="checkbox" name="gdpr" id="gdpr">
+                    You give us rights to sell your info to google
+                </label><br>
+                <input type="submit" value=">" id="nappi">
+            </form>
+        </div>
+        <div class="cont-info">
+            <div class="container">
+                <h2>Contact info</h2>
+                <address>
+                    <p>
+                        SATAKUNNAN AMMATIKORKEAKOULU <br>
+                        Satakunnankatu 23 <br>
+                        28130 Pori <br>
+                        050123456789
+                    </p>
+                    <div class="Logo_here">
+                        <h1 class="Logo">
+                            <span class="logo_i_know">
+                                <span class="letter_i">I</span>know
+                            </span>
+                            HTML
+                        </h1>
+                        <p>also a little bit CSS</p>
+                    </div>
+                </address>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
